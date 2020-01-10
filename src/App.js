@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { render } from 'react-dom'
 import Nav from './Nav/Nav'
 import Map from './Map/Map'
-import { mapStyles } from './Map/NightMode.js'
+//import { mapStyles } from './Map/NightMode.js'
 import Snow from './Snow/Snow'
 import './App.css'
 
@@ -71,7 +71,7 @@ class App extends Component {
                 zoomControl: true,
                 streetViewControl: false,
                 mapTypeControl: false,
-                styles: mapStyles
+                //styles: mapStyles
               }}
               onMapLoad={map => {
                 for (let i = 0; i < this.state.lights.length; i++) {
@@ -87,7 +87,7 @@ class App extends Component {
                       position: { lat: parseFloat(this.state.lights[i].lat), lng: parseFloat(this.state.lights[i].lng) },
                       map: map,
                       label: '',
-                      icon: mapIcon
+                      //icon: mapIcon
                     });
                   marker.addListener('click', e => {
                     this.setState({ picture: this.state.lights[i].url });
@@ -103,9 +103,9 @@ class App extends Component {
               }}
             />
           </div>}
-        <Snow
+        {/* <Snow
         // credit to https://pajasevi.github.io/CSSnowflakes/
-        />
+        /> */}
       </div>
     );
   }

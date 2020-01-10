@@ -22,7 +22,8 @@ class Nav extends Component {
             for (let i = 0; i < 5; i++) {
                 if (i < this.props.targetRating) {
                     rating.push(
-                        <img src="./res/star.png" alt="*" height="30" width="30" key={Math.random()}></img>
+                        // <img src="./res/star.png" alt="*" height="30" width="30" key={Math.random()}></img>
+                        <span>*</span>
                     )
                 }
             }
@@ -46,7 +47,7 @@ class Nav extends Component {
             if (!this.props.targetLat) {
                 return (
                     this.state.showLandingContainer && <div className="Landing_Container">
-                        <img src="./res/hat.png" alt="A Hat" height="100vh" width="100vw"></img>
+                        {/* <img src="./res/hat.png" alt="A Hat" height="100vh" width="100vw"></img> */}
                         <h1>Powered by Google Maps</h1>
                         <br></br>
                         <h2>...and Pizza Guys</h2>
