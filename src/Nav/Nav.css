@@ -16,14 +16,14 @@ margin-bottom: 20px;
 
 .Nav_Container a{
     font-size: 35px;
-    color: rgb(55, 134, 52);
+    /* color: rgb(55, 134, 52); */
 }
 #Close_Nav_Btn{
     margin-top: 10px;
     position:absolute;
-    border-radius:20px;
+    /* border-radius:20px;
     border-color: 0,0,0,0;
-    background-color: rgb(182, 48, 48);
+    background-color: rgb(182, 48, 48); */
     width: 50px;
     height: 50px;
 }
@@ -57,9 +57,9 @@ li{
     margin-top: 20px;
     margin-left: -165px;
     position:absolute;
-    border-radius:20px;
+    /* border-radius:20px;
     border-color: 0,0,0,0;
-    background-color: rgb(182,48,48);
+    background-color: rgb(182,48,48); */
     width: 50px;
     height: 50px;
 }
