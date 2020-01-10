@@ -1,5 +1,5 @@
 {
-  "homepage": "https://lightcruise-6f5oc27lw.now.sh",
+  "homepage": "https://benjaminfkile.github.io/lightful-wireframe/",
   "name": "lightful-client",
   "version": "0.1.0",
   "private": true,
@@ -36,6 +36,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.1.1"
+    "gh-pages": "^2.2.0"
   }
 }
